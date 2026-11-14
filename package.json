@@ -1,0 +1,19 @@
+{
+  "name": "broadcast-podcast",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Broadcast Podcast studio website and booking API",
+  "main": "backend/server.js",
+  "scripts": {
+    "build": "echo Build completed successfully",
+    "start": "node --env-file-if-exists=backend/.env backend/server.js",
+    "dev": "node --env-file-if-exists=backend/.env --watch backend/server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.0"
+  }
+}

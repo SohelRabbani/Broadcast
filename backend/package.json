@@ -1,0 +1,17 @@
+{
+  "name": "broadcast-podcast-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo Backend build ready",
+    "start": "node --env-file-if-exists=.env server.js",
+    "dev": "node --env-file-if-exists=.env --watch server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.0"
+  }
+}

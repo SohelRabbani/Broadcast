@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "audio",
+    "name": "Audio recording",
+    "description": "Record a solo episode or an interview with studio microphones and an engineer on hand.",
+    "price": 2500,
+    "unit": "hour",
+    "features": ["Up to 2 microphones", "Recording engineer", "Separate audio tracks"]
+  },
+  {
+    "slug": "video",
+    "name": "Video podcast",
+    "description": "Capture your conversation on camera with studio lighting and clean, separate audio.",
+    "price": 4500,
+    "unit": "hour",
+    "features": ["Two camera angles", "Studio lighting", "Raw video and audio files"]
+  },
+  {
+    "slug": "editing",
+    "name": "Episode editing",
+    "description": "Send us your recording for cleanup, a tighter edit, and a finished episode file.",
+    "price": 3500,
+    "unit": "episode",
+    "features": ["Audio cleanup and leveling", "Intro and outro placement", "One revision"]
+  }
+]

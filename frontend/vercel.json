@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(services|gallery|pricing|booking|reviews|contact)",
+      "destination": "/index.html"
+    }
+  ]
+}
