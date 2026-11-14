@@ -6,28 +6,8 @@
       "destination": "/api/index.js"
     },
     {
-      "source": "/assets/(.*)",
-      "destination": "/frontend/assets/$1"
-    },
-    {
-      "source": "/style.css",
-      "destination": "/frontend/style.css"
-    },
-    {
-      "source": "/app.js",
-      "destination": "/frontend/app.js"
-    },
-    {
-      "source": "/config.js",
-      "destination": "/frontend/config.js"
-    },
-    {
-      "source": "/services.json",
-      "destination": "/frontend/services.json"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/frontend/index.html"
+      "source": "/(services|gallery|pricing|booking|reviews|contact)",
+      "destination": "/index.html"
     }
   ]
 }

@@ -1,12 +1,18 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('node:path');
+const fs = require('node:fs');
 const Booking = require('./models/Booking');
 const Service = require('./models/Service');
-const catalog = require('../frontend/services.json');
+
+const frontend = fs.existsSync(path.join(__dirname, '../public'))
+  ? path.join(__dirname, '../public')
+  : path.join(__dirname, '../frontend');
+const catalog = fs.existsSync(path.join(__dirname, '../public/services.json'))
+  ? require('../public/services.json')
+  : require('../frontend/services.json');
 
 const app = express();
-const frontend = path.join(__dirname, '../frontend');
 let databaseReady = false;
 let dbConnectPromise = null;
 
